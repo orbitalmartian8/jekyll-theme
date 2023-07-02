@@ -1,0 +1,25 @@
+---
+# Import other Sass files or stylesheets here if needed
+---
+
+// Variables
+$primary-color: #336699;
+$font-family: Arial, sans-serif;
+
+// Base styles
+body {
+  font-family: $font-family;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+// Custom styles for specific elements or classes
+.my-custom-class {
+  background-color: #F2F2F2;
+  padding: 10px;
+}
+
+// Other styles...
