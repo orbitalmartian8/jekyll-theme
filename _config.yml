@@ -1,0 +1,32 @@
+# Site settings
+title: My Jekyll Theme
+description: A custom Jekyll theme
+baseurl: "" # the subpath of your site, e.g. "/blog"
+url: "" # the base hostname & protocol for your site, e.g. "https://example.com"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation
+navbar_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Custom variables
+custom_variable: "Custom value"
